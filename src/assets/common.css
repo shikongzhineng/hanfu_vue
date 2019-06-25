@@ -1,0 +1,49 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+a {
+  color: #000;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #409eff;
+}
+.el-breadcrumb__item:last-child .el-breadcrumb__inner,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a {
+  cursor: pointer !important;
+  font-weight: 700 !important;
+}
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover,
+.el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
+  color: #409eff;
+}
+.el-row {
+  margin-bottom: 20px;
+}
+.el-row :last-child {
+  margin-bottom: 0;
+}
+.el-col {
+  border-radius: 4px;
+}
+.el-card__body {
+  padding: 10px;
+}
+.bg-purple-dark {
+  background: #99a9bf;
+}
+.bg-purple {
+  background: #d3dce6;
+}
+.bg-purple-light {
+  background: #e5e9f2;
+}
+.grid-content {
+  border-radius: 4px;
+  min-height: 36px;
+}
+.row-bg {
+  padding: 10px 0;
+  background-color: #f9fafc;
+}

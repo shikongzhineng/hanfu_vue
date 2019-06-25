@@ -1,0 +1,82 @@
+.image {
+  width: 100%;
+  line-height: 100%;
+}
+.sec1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.sec1 section:nth-child(2) {
+  width: 30%;
+}
+.sec1 section:nth-child(1) {
+  background-color: #0ef0;
+  width: 70%;
+}
+h3 {
+  text-align: left;
+}
+article {
+  text-align: justify;
+}
+.rqhf a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f60;
+}
+.rqhf a:hover {
+  cursor: pointer;
+  /* text-decoration: cadetblue; */
+  color: #409eff;
+}
+.dapei .image {
+  height: 170px;
+  display: block;
+}
+.dapei .text {
+  width: 100px;
+  overflow: hidden;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.hfjs,
+.peishi {
+  padding-right: 10px;
+}
+.peishi .image{
+  height: 70px;
+}
+.peishi .text {
+  font-size: 12px;
+}
+/* 摄影 */
+.sheying .image {
+  height: 160px;
+}
+.el-card{
+  text-align: center;
+}
+.sheying .title {
+  font-size: 14px;
+}
+.hfly .title {
+  font-size: 14px;
+}
+.hfly .image {
+  height: 140px;
+}
+.business .content .el-col {
+  margin:5px;
+}
+.business .content a{
+  padding: 5px;
+}
+.business .content a:hover{
+  border: 1px solid #409eff;
+}
+.head {
+  height: 64px;
+}

@@ -107,8 +107,8 @@
               <router-link :to="{path:'/dapei/'+elm.name}">
                 <img :src="elm.image" class="image">
               </router-link>
-              <router-link :to="{path:'/dapei'+elm.name}">
-                <span class="text">{{elm.text}}</span>
+              <router-link :to="{path:'/dapei'+elm.name}" class="title">
+                <span>{{elm.text}}</span>
               </router-link>
             </el-card>
           </el-col>
@@ -132,8 +132,8 @@
                     <router-link :to="{path:'/peishi/'+elm.category+'/'+elm.name}">
                       <img :src="elm.image" class="image">
                     </router-link>
-                    <router-link :to="{path:`/peihsi/${elm.category}/${elm.name}`}">
-                      <span class="text">{{elm.text}}</span>
+                    <router-link :to="{path:`/peihsi/${elm.category}/${elm.name}`}" class="title">
+                      <span>{{elm.text}}</span>
                     </router-link>
                   </el-card>
                 </el-col>
@@ -166,8 +166,8 @@
               <router-link :to="{path:'/sheying/'+elm.name}">
                 <img :src="elm.image" class="image">
               </router-link>
-              <router-link :to="{path:'/sheying/'+elm.name}">
-                <span class="title">{{elm.title}}</span>
+              <router-link :to="{path:'/sheying/'+elm.name}" class="title">
+                <span>{{elm.title}}</span>
               </router-link>
             </el-card>
           </el-col>
@@ -186,8 +186,8 @@
                   <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
                     <img :src="elm.image" class="image">
                   </router-link>
-                  <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
-                    <span class="title">{{elm.title}}</span>
+                  <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="title">
+                    <span>{{elm.title}}</span>
                   </router-link>
                 </el-card>
               </el-col>
@@ -203,8 +203,8 @@
                   <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
                     <img :src="elm.image" class="image">
                   </router-link>
-                  <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
-                    <span class="title">{{elm.title}}</span>
+                  <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="title">
+                    <span >{{elm.title}}</span>
                   </router-link>
                 </el-card>
               </el-col>
@@ -220,16 +220,16 @@
         <el-row>
           <el-col :span="8" v-for="(elm,index) of zixunIndex" :key="index">
             <el-card v-if="index===0">
-              <router-link :to="{path:'/zixun/'+'/'+elm.name}">
+              <router-link :to="{path:'/zixun/'+elm.name}">
                 <img :src="elm.image" class="image" style="height:250px;">
               </router-link>
-              <router-link :to="{path:'/zixun/'+'/'+elm.name}">
-                <span class="title">{{elm.title}}</span>
+              <router-link :to="{path:'/zixun/'+elm.name}" class="title">
+                <span>{{elm.title}}</span>
               </router-link>
             </el-card>
             <el-card v-else>
-              <router-link :to="{path:'/zixun/'+'/'+elm.name}">
-                <span class="title">{{elm.title}}</span>
+              <router-link :to="{path:'/zixun/'+elm.name}" class="title">
+                <span>{{elm.title}}</span>
               </router-link>
             </el-card>
           </el-col>

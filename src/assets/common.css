@@ -27,6 +27,9 @@ a:hover {
 .el-col {
   border-radius: 4px;
 }
+.el-card {
+  text-align: center;
+}
 .el-card__body {
   padding: 10px;
 }
@@ -46,4 +49,16 @@ a:hover {
 .row-bg {
   padding: 10px 0;
   background-color: #f9fafc;
+}
+.image {
+  width:100%;
+}
+.el-card .title {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  overflow: hidden;
 }

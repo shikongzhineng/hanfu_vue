@@ -10,7 +10,7 @@
         <el-input v-model="val" placeholder="半臂 交领襦裙" clearable></el-input>
       </div>
       <el-breadcrumb separator>
-        <el-breadcrumb-item>
+        <el-breadcrumb-item :to="{path:'/hfly/hunli'}">
           <el-link>汉服婚礼</el-link>
         </el-breadcrumb-item>
         <el-breadcrumb-item>
@@ -48,8 +48,9 @@
           </router-link>
         </el-menu-item>
         <el-menu-item>
-          <router-link :to="{path:'/dapei'}"></router-link>
-          <el-link>汉服搭配</el-link>
+          <router-link :to="{path:'/dapei'}">
+            <el-link>汉服搭配</el-link>
+          </router-link>
         </el-menu-item>
         <el-menu-item>
           <router-link :to="{path:'/zixun'}">

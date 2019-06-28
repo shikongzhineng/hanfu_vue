@@ -104,8 +104,8 @@
         <el-row>
           <el-col :span="8" v-for="(elm, index) in dapeiIndex" :key="index">
             <el-card>
-              <router-link :to="{path:'/dapei/'+elm.name}">
-                <img :src="elm.image" class="image">
+              <router-link :to="{path:'/dapei/'+elm.name}" class="image">
+                <img :src="elm.image">
               </router-link>
               <router-link :to="{path:'/dapei'+elm.name}" class="title">
                 <span>{{elm.text}}</span>
@@ -129,8 +129,8 @@
               <el-row>
                 <el-col :span="4" v-for="(elm,index) of peishiIndex" :key="index">
                   <el-card>
-                    <router-link :to="{path:'/peishi/'+elm.category+'/'+elm.name}">
-                      <img :src="elm.image" class="image">
+                    <router-link :to="{path:'/peishi/'+elm.category+'/'+elm.name}" class="image">
+                      <img :src="elm.image">
                     </router-link>
                     <router-link :to="{path:`/peihsi/${elm.category}/${elm.name}`}" class="title">
                       <span>{{elm.text}}</span>
@@ -163,8 +163,8 @@
         <el-row>
           <el-col :span="6" v-for="(elm,index) of sheyingIndex" :key="index">
             <el-card>
-              <router-link :to="{path:'/sheying/'+elm.name}">
-                <img :src="elm.image" class="image">
+              <router-link :to="{path:'/sheying/'+elm.name}" class="image">
+                <img :src="elm.image">
               </router-link>
               <router-link :to="{path:'/sheying/'+elm.name}" class="title">
                 <span>{{elm.title}}</span>
@@ -183,8 +183,8 @@
             <el-row>
               <el-col :span="6" v-for="(elm,index) of hflyIndex" :key="index">
                 <el-card>
-                  <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
-                    <img :src="elm.image" class="image">
+                  <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="image">
+                    <img :src="elm.image">
                   </router-link>
                   <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="title">
                     <span>{{elm.title}}</span>
@@ -200,8 +200,8 @@
             <el-row>
               <el-col :span="12" v-for="(elm,index) of hflyHot" :key="index">
                 <el-card>
-                  <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
-                    <img :src="elm.image" class="image">
+                  <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="image">
+                    <img :src="elm.image">
                   </router-link>
                   <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="title">
                     <span >{{elm.title}}</span>
@@ -220,8 +220,8 @@
         <el-row>
           <el-col :span="8" v-for="(elm,index) of zixunIndex" :key="index">
             <el-card v-if="index===0">
-              <router-link :to="{path:'/zixun/'+elm.name}">
-                <img :src="elm.image" class="image" style="height:250px;">
+              <router-link :to="{path:'/zixun/'+elm.name}" class="image" style="height:250px;">
+                <img :src="elm.image" >
               </router-link>
               <router-link :to="{path:'/zixun/'+elm.name}" class="title">
                 <span>{{elm.title}}</span>

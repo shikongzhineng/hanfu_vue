@@ -249,13 +249,13 @@ export default {
         }
       ],
       businessIndex:[
-        {name:'重回汉唐',link:'https://shop152303815.taobao.com/?spm=a230r.7195193.1997079397.41.2e556459OAZSiH'},
-        {name:'汉尚华莲',link:'https://shop252544074.taobao.com/?spm=a230r.7195193.1997079397.52.2e556459OAZSiH'},
-        {name:'汉嗣汉服',link:'https://shop104174236.taobao.com/?spm=a1z10.1-c.0.0.7f23acc0nmYBaW'},
-        {name:'丝绦麻履',link:'https://shop109649465.taobao.com/?spm=a230r.7195193.1997079397.2.29617257HudXRc'},
-        {name:'怀谷居',link:'https://shop68003934.taobao.com/?spm=a230r.7195193.1997079397.2.203654b2cPIl0q'},
-        {name:'良姜布衣',link:'https://shop247355963.taobao.com/?spm=a230r.7195193.1997079397.2.582c6bc7WaV3a5'},
-        {name:'淮边筱竹',link:'https://shop108521617.taobao.com/?spm=a230r.7195193.1997079397.24.7aa938abaJ9A9Y'}
+        {name:'重回汉唐',link:'https://shop152303815.taobao.com'},
+        {name:'汉尚华莲',link:'https://shop252544074.taobao.com'},
+        {name:'汉嗣汉服',link:'https://shop104174236.taobao.com'},
+        {name:'丝绦麻履',link:'https://shop109649465.taobao.com'},
+        {name:'怀谷居',link:'https://shop68003934.taobao.com'},
+        {name:'良姜布衣',link:'https://shop247355963.taobao.com'},
+        {name:'淮边筱竹',link:'https://shop108521617.taobao.com'}
       ],
       sheyingIndex:[
         {

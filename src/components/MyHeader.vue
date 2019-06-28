@@ -38,31 +38,31 @@
           </router-link>
         </el-menu-item>
         <el-menu-item>
-          <router-link :to="{path:'/'}">
+          <router-link :to="{path:'/wiki'}">
             <el-link>汉服百科</el-link>
           </router-link>
         </el-menu-item>
         <el-menu-item>
-          <router-link :to="{path:'/'}">
+          <router-link :to="{path:'/hfly'}">
             <el-link>汉服礼仪</el-link>
           </router-link>
         </el-menu-item>
         <el-menu-item>
-          <router-link :to="{path:'/'}"></router-link>
+          <router-link :to="{path:'/dapei'}"></router-link>
           <el-link>汉服搭配</el-link>
         </el-menu-item>
         <el-menu-item>
-          <router-link :to="{path:'/'}">
+          <router-link :to="{path:'/zixun'}">
             <el-link>汉服资讯</el-link>
           </router-link>
         </el-menu-item>
         <el-menu-item>
-          <router-link :to="{path:'/'}">
+          <router-link :to="{path:'/peishi'}">
             <el-link>汉服配饰</el-link>
           </router-link>
         </el-menu-item>
         <el-menu-item>
-          <router-link :to="{path:'/'}">
+          <router-link :to="{path:'/sheying'}">
             <el-link>汉服摄影</el-link>
           </router-link>
         </el-menu-item>

@@ -30,9 +30,6 @@ a:hover {
 .el-col {
   border-radius: 4px;
 }
-.el-card {
-  text-align: center;
-}
 .el-card__body {
   padding: 10px;
 }

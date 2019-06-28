@@ -1,13 +1,16 @@
 .header,.container {
   width: 100%;
 }
-.tjly {
+.tjly ,.zxhfly{
   width: 1000px;
   margin:0 auto;
 }
 .head {
   margin-bottom: 20px;
 }
-.image {
+.tjly .image {
   height: 120px;
+}
+.zxhfly .image {
+  height: 160px;
 }

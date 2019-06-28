@@ -1,0 +1,9 @@
+.container div.head:first-child {
+  margin:20px;
+}
+.container div.head:first-child .title {
+  color: #f60;
+}
+.image {
+  height: 190px;
+}

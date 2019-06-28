@@ -10,7 +10,7 @@
       <el-row>
         <el-col :span="10" :data-elm="elm=tjly[0]">
           <el-card>
-            <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
+            <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" >
               <img :src="elm.image" style="height:280px;">
             </router-link>
             <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="title">
@@ -18,12 +18,12 @@
             </router-link>
           </el-card>
         </el-col>
-        <el-col :span=14>
+        <el-col :span="14">
           <el-row>
             <el-col :span="8" v-for="(elm,index) of tjly" :key="index">
               <el-card v-if="index!==0">
-                <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
-                  <img :src="elm.image" class="image">
+                <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="image">
+                  <img :src="elm.image">
                 </router-link>
                 <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="title">
                   <span class="text">{{elm.title}}</span>
@@ -31,6 +31,23 @@
               </el-card>
             </el-col>
           </el-row>
+        </el-col>
+      </el-row>
+    </section>
+    <section class="zxhfly">
+      <div class="head">
+        <h4>最新汉服礼仪</h4>
+      </div>
+      <el-row>
+        <el-col :span="6" v-for="(elm,index) of zxhfly" :key="index">
+          <el-card>
+            <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}">
+              <img :src="elm.image" class="image">
+            </router-link>
+            <router-link :to="{path:'/hfly/'+elm.category+'/'+elm.name}" class="title">
+              <span class="text">{{elm.title}}</span>
+            </router-link>
+          </el-card>
         </el-col>
       </el-row>
     </section>

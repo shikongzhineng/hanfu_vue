@@ -9,14 +9,14 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import MyHeader from './components/MyHeader'
-import MyFooter from './components/MyFooter'
+// import MyFooter from './components/MyFooter'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
     MyHeader,
-    MyFooter
+    // MyFooter
   }
 }
 </script>

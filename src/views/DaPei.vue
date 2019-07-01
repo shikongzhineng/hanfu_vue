@@ -10,12 +10,12 @@
         <h4>汉服搭配</h4>
       </div>
       <el-row>
-        <el-col :span=6>
-          <el-card v-for="(elm,index) of dapei" :key="index">
+        <el-col :span=6 v-for="(elm,index) of dapei" :key="index">
+          <el-card>
             <router-link :to="{path:'/dapei/'+elm.name}" class="image">
               <img :src="elm.image">
             </router-link>
-            <router-link :to="{path:'/hfly/'+elm.name}" class="title">
+            <router-link :to="{path:'/dapei/'+elm.name}" class="title">
               <span class="text">{{elm.title}}</span>
             </router-link>
           </el-card>
